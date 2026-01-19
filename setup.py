@@ -15,6 +15,7 @@ setup(
         (os.path.join('share', package_name, 'urdf'), glob('urdf/*.urdf')),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.*')),
         (os.path.join('share', package_name, 'dae'), glob('dae/*.dae')),
+        (os.path.join('share', package_name, 'checkpoints'), glob('checkpoints/*.pt')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -25,6 +26,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'go2_rl_driver = go2_ros_gazebo.go2_rl_driver:main',
         ],
     },
 )
