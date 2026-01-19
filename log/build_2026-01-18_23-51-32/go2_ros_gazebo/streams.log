@@ -1,0 +1,25 @@
+[0.576s] Invoking command in '/home/ever/ros2_ws/src/go2_ros_gazebo': PYTHONPATH=/home/ever/ros2_ws/src/go2_ros_gazebo/build/go2_ros_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ever/ros2_ws/src/go2_ros_gazebo/install/go2_ros_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/go2_ros_gazebo build --build-base /home/ever/ros2_ws/src/go2_ros_gazebo/build/go2_ros_gazebo/build install --record /home/ever/ros2_ws/src/go2_ros_gazebo/build/go2_ros_gazebo/install.log --single-version-externally-managed install_data
+[0.796s] running egg_info
+[0.796s] writing build/go2_ros_gazebo/go2_ros_gazebo.egg-info/PKG-INFO
+[0.796s] writing dependency_links to build/go2_ros_gazebo/go2_ros_gazebo.egg-info/dependency_links.txt
+[0.796s] writing entry points to build/go2_ros_gazebo/go2_ros_gazebo.egg-info/entry_points.txt
+[0.797s] writing requirements to build/go2_ros_gazebo/go2_ros_gazebo.egg-info/requires.txt
+[0.797s] writing top-level names to build/go2_ros_gazebo/go2_ros_gazebo.egg-info/top_level.txt
+[0.799s] reading manifest file 'build/go2_ros_gazebo/go2_ros_gazebo.egg-info/SOURCES.txt'
+[0.800s] writing manifest file 'build/go2_ros_gazebo/go2_ros_gazebo.egg-info/SOURCES.txt'
+[0.800s] running build
+[0.800s] running build_py
+[0.800s] copying go2_ros_gazebo/go2_rl_driver.py -> /home/ever/ros2_ws/src/go2_ros_gazebo/build/go2_ros_gazebo/build/lib/go2_ros_gazebo
+[0.800s] running install
+[0.800s] running install_lib
+[0.801s] copying /home/ever/ros2_ws/src/go2_ros_gazebo/build/go2_ros_gazebo/build/lib/go2_ros_gazebo/go2_rl_driver.py -> /home/ever/ros2_ws/src/go2_ros_gazebo/install/go2_ros_gazebo/lib/python3.10/site-packages/go2_ros_gazebo
+[0.801s] byte-compiling /home/ever/ros2_ws/src/go2_ros_gazebo/install/go2_ros_gazebo/lib/python3.10/site-packages/go2_ros_gazebo/go2_rl_driver.py to go2_rl_driver.cpython-310.pyc
+[0.803s] running install_data
+[0.803s] copying launch/spawn.launch.py -> /home/ever/ros2_ws/src/go2_ros_gazebo/install/go2_ros_gazebo/share/go2_ros_gazebo/launch
+[0.803s] running install_egg_info
+[0.805s] removing '/home/ever/ros2_ws/src/go2_ros_gazebo/install/go2_ros_gazebo/lib/python3.10/site-packages/go2_ros_gazebo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.806s] Copying build/go2_ros_gazebo/go2_ros_gazebo.egg-info to /home/ever/ros2_ws/src/go2_ros_gazebo/install/go2_ros_gazebo/lib/python3.10/site-packages/go2_ros_gazebo-0.0.0-py3.10.egg-info
+[0.807s] running install_scripts
+[0.827s] Installing go2_rl_driver script to /home/ever/ros2_ws/src/go2_ros_gazebo/install/go2_ros_gazebo/lib/go2_ros_gazebo
+[0.827s] writing list of installed files to '/home/ever/ros2_ws/src/go2_ros_gazebo/build/go2_ros_gazebo/install.log'
+[0.854s] Invoked command in '/home/ever/ros2_ws/src/go2_ros_gazebo' returned '0': PYTHONPATH=/home/ever/ros2_ws/src/go2_ros_gazebo/build/go2_ros_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ever/ros2_ws/src/go2_ros_gazebo/install/go2_ros_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/go2_ros_gazebo build --build-base /home/ever/ros2_ws/src/go2_ros_gazebo/build/go2_ros_gazebo/build install --record /home/ever/ros2_ws/src/go2_ros_gazebo/build/go2_ros_gazebo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+go2_rl_driver = go2_ros_gazebo.go2_rl_driver:main
+

@@ -16,6 +16,7 @@ setup(
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.*')),
         (os.path.join('share', package_name, 'dae'), glob('dae/*.dae')),
         (os.path.join('share', package_name, 'checkpoints'), glob('checkpoints/*.pt')),
+        (os.path.join('share', package_name, 'worlds'), glob('worlds/*.sdf')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
