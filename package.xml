@@ -3,9 +3,9 @@
 <package format="3">
   <name>go2_ros_gazebo</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="louis9ramos@gmail.com">ever</maintainer>
-  <license>TODO: License declaration</license>
+  <description>Simulación del cuadrúpedo Unitree Go2 en ROS 2 + Gazebo con control de locomoción mediante una política de aprendizaje por refuerzo (RL).</description>
+  <maintainer email="127719599+louis9RM@users.noreply.github.com">Ever Ramos</maintainer>
+  <license>MIT</license>
 
   <depend>rclpy</depend>
   <depend>urdf</depend>

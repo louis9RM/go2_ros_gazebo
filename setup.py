@@ -20,10 +20,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='ever',
-    maintainer_email='louis9ramos@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Ever Ramos',
+    maintainer_email='127719599+louis9RM@users.noreply.github.com',
+    description='Simulacion del cuadrupedo Unitree Go2 en ROS 2 + Gazebo con control de locomocion mediante una politica de aprendizaje por refuerzo (RL).',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
