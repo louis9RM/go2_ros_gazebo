@@ -1,0 +1,33 @@
+# ---- ROS 2 / colcon (artefactos de compilación, NO se versionan) ----
+build/
+install/
+log/
+*.colcon_install_layout
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# ---- Modelos / pesos grandes de RL ----
+# El checkpoint incluido (checkpoints/model_7850.pt, ~6.8 MB) SÍ se versiona.
+# Ignora aquí cualquier peso grande o experimento nuevo que no deba subirse:
+checkpoints/*.ckpt
+checkpoints/*.pth
+runs/
+wandb/
+outputs/
+
+# ---- Editores / SO ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
